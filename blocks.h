@@ -2,13 +2,9 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"", "bargit",					10,		1},
-	{"", "barmail",					180,		12},
-	{"", "barpac",					0,		8},
 	{"", "barvol",					0,		10},
-	{"", "bardate",					10,		1},
 	{"", "bartime",					10,		1},
 	{"", "barbatt",					2,		0},
-	{"", "barssid",					2,		4},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
